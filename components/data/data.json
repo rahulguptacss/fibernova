@@ -1,0 +1,575 @@
+{
+  "common": {
+    "Topbar": {
+      "tagline": "Next-Gen Optical Fiber Internet & Ultra-High Speed Broadband",
+      "contact_info": [
+        {
+          "icon": "Phone",
+          "label": "Phone",
+          "value": "+100000000000",
+          "href": "tel:+100000000000"
+        },
+        {
+          "icon": "Mail",
+          "label": "Email",
+          "value": "info@xyz.com",
+          "href": "mailto:info@xyz.com"
+        },
+        {
+          "icon": "Headset",
+          "label": "Support",
+          "value": "Customer Support",
+          "href": "#contact"
+        }
+      ],
+      "mobile_call_text": "Call"
+    },
+    "Header": {
+      "logo_image": "/logo/logo.webp",
+      "logo_text": "Fiber Nova",
+      "phone": "+100000000000",
+      "phone_href": "tel:+100000000000",
+      "links": [
+        {
+          "name": "Home",
+          "href": "#home",
+          "active": true
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Services",
+          "href": "#services"
+        },
+        {
+          "name": "Broadband Plans",
+          "href": "#pricing"
+        },
+        {
+          "name": "Why Choose Us",
+          "href": "#why-choose"
+        },
+        {
+          "name": "Testimonials",
+          "href": "#testimonials"
+        },
+        {
+          "name": "Contact Us",
+          "href": "#contact"
+        }
+      ],
+      "button_text": "Book Connection",
+      "button_link": "#contact",
+      "button_text_mobile": "Book"
+    },
+    "Footer": {
+      "logo_image": "/logo/logo-w.webp",
+      "logo_text": "Fiber Nova",
+      "description": "Fiber Nova delivers ultra-fast optical fiber broadband with symmetric gigabit speeds, zero buffering, Wi-Fi 6 mesh coverage, and 24/7 dedicated customer care.",
+      "socials": [
+        {
+          "icon": "Facebook",
+          "href": "https://www.facebook.com/"
+        },
+        {
+          "icon": "Instagram",
+          "href": "https://www.instagram.com/"
+        },
+        {
+          "icon": "Linkedin",
+          "href": "https://www.linkedin.com/"
+        },
+        {
+          "icon": "Youtube",
+          "href": "https://www.youtube.com/"
+        }
+      ],
+      "quick_links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Broadband Plans",
+          "href": "#pricing"
+        },
+        {
+          "name": "Our Services",
+          "href": "#services"
+        },
+        {
+          "name": "Contact Us",
+          "href": "#contact"
+        }
+      ],
+      "our_services": [
+        {
+          "name": "Home Broadband",
+          "href": "#services"
+        },
+        {
+          "name": "Business Internet",
+          "href": "#services"
+        },
+        {
+          "name": "Wi-Fi 6 Solutions",
+          "href": "#services"
+        },
+        {
+          "name": "Dedicated Fiber Line",
+          "href": "#services"
+        },
+        {
+          "name": "Installation & Setup",
+          "href": "#services"
+        }
+      ],
+      "contact": {
+        "address": "123 Education Lane,\nNew York, NY 10001",
+        "phone": "+100000000000",
+        "email": "info@xyz.com"
+      },
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow",
+      "quick_links_title": "Quick Links",
+      "our_services_title": "Our Services",
+      "contact_us_title": "Contact Us"
+    }
+  },
+  "categories": {
+    "Broadband": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "Home",
+              "pageName": "Home",
+              "metadata": {
+                "title": "Fiber Nova – INTERNET & BROADBAND SERVICES",
+                "description": "Experience lightning-fast optical fiber broadband with symmetric speeds up to 1 Gbps, unlimited data, low latency gaming, and 24/7 dedicated support with Fiber Nova."
+              },
+              "components": [
+                {
+                  "key": "HeroSection",
+                  "component": "Hero",
+                  "sectionKey": "hero"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About",
+                  "sectionKey": "about"
+                },
+                {
+                  "key": "HighlightsSection",
+                  "component": "Highlights",
+                  "sectionKey": "highlights"
+                },
+                {
+                  "key": "ServicesSection",
+                  "component": "Services",
+                  "sectionKey": "services"
+                },
+                {
+                  "key": "PricingSection",
+                  "component": "Pricing",
+                  "sectionKey": "pricing"
+                },
+                {
+                  "key": "WhyChooseSection",
+                  "component": "WhyChoose",
+                  "sectionKey": "why_choose"
+                },
+                {
+                  "key": "CtaBannerSection",
+                  "component": "CtaBanner",
+                  "sectionKey": "cta_banner"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials",
+                  "sectionKey": "testimonials"
+                },
+                {
+                  "key": "ContactSection",
+                  "component": "Contact",
+                  "sectionKey": "contact"
+                }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "badge_text": "FAST. RELIABLE. ALWAYS ON.",
+              "title_line1": "High-Speed Fiber",
+              "title_line2": "for a Smarter",
+              "title_highlight": "Everyday",
+              "description": "Experience ultra-fast, symmetric gigabit fiber broadband designed for flawless 4K/8K streaming, competitive gaming, and modern connected smart homes.",
+              "primary_button": {
+                "text": "Get Connected",
+                "href": "#contact"
+              },
+              "secondary_button": {
+                "text": "Explore Plans",
+                "href": "#pricing"
+              },
+              "image": "/images/hero.webp",
+              "floating_badge_top": {
+                "text": "Streaming",
+                "subtext": "Lag-Free",
+                "video_url": "https://www.w3schools.com/html/mov_bbb.mp4"
+              },
+              "floating_badge_bottom": {
+                "label": "ULTRA-FAST SPEED",
+                "speed": "1 Gbps",
+                "tag": "Symmetric"
+              },
+              "image_alt": "High-Speed Optical Fiber Internet"
+            },
+            "about": {
+              "subtitle": "ABOUT FIBER NOVA",
+              "title_line1": "Connecting You to a",
+              "title_highlight": "Faster, Smoother",
+              "title_line2": "Digital World",
+              "description": "Fiber Nova provides cutting-edge pure optical fiber internet infrastructure with guaranteed symmetric speeds, sub-5ms low latency, and 99.9% uptime for residential and commercial customers.",
+              "image": "/images/about.webp",
+              "image_secondary": "/images/router.webp",
+              "features": [
+                {
+                  "title": "Ultra-Fast Speeds",
+                  "description": "Seamless streaming, work and gaming.",
+                  "icon": "Zap"
+                },
+                {
+                  "title": "Wide Coverage",
+                  "description": "Connecting more homes and businesses.",
+                  "icon": "Wifi"
+                },
+                {
+                  "title": "Reliable Network",
+                  "description": "Consistent and secure connectivity.",
+                  "icon": "Settings"
+                },
+                {
+                  "title": "24/7 Support",
+                  "description": "We're always here to help.",
+                  "icon": "Headset"
+                }
+              ],
+              "button": {
+                "text": "Explore Services",
+                "href": "#services"
+              },
+              "experience_badge": {
+                "years": "15+ Years",
+                "label": "Fiber Excellence"
+              }
+            },
+            "highlights": {
+              "items": [
+                {
+                  "title": "Home Broadband",
+                  "description": "Ultra-fast gigabit fiber for all family devices.",
+                  "icon": "Home",
+                  "link": "#pricing"
+                },
+                {
+                  "title": "Business Internet",
+                  "description": "Dedicated symmetric lines with SLA guarantee.",
+                  "icon": "Briefcase",
+                  "link": "#contact"
+                },
+                {
+                  "title": "Wi-Fi 6 Mesh",
+                  "description": "Whole-home seamless smart coverage with zero dead zones.",
+                  "icon": "Wifi",
+                  "link": "#services"
+                },
+                {
+                  "title": "Dedicated NOC",
+                  "description": "24/7 proactive technical network care.",
+                  "icon": "Server",
+                  "link": "#contact"
+                }
+              ]
+            },
+            "services": {
+              "subtitle": "OUR SERVICES",
+              "title_line1": "Our Dedicated",
+              "title_highlight": "Fiber Services",
+              "description": "From lightning-speed home gigabit fiber to enterprise leased lines, Fiber Nova delivers seamless connectivity across every sector.",
+              "button": {
+                "text": "Check Availability",
+                "href": "#contact"
+              },
+              "items": [
+                {
+                  "title": "Home Fiber Broadband",
+                  "description": "Buffer-free 4K streaming, lag-free online gaming, and instant cloud backups for the whole house.",
+                  "icon": "Wifi",
+                  "image": "/images/hero.webp",
+                  "link": "#contact",
+                  "link_text": "Book Service"
+                },
+                {
+                  "title": "Business Gigabit Leased Line",
+                  "description": "Rock-solid symmetric bandwidth backed by an enterprise 99.99% uptime Service Level Agreement.",
+                  "icon": "Briefcase",
+                  "image": "/images/service-business.webp",
+                  "link": "#contact",
+                  "link_text": "Book Service"
+                },
+                {
+                  "title": "Next-Gen Wi-Fi 6 Router",
+                  "description": "Complimentary high-gain dual-band Wi-Fi 6 router included with professional installation.",
+                  "icon": "Router",
+                  "image": "/images/router.webp",
+                  "link": "#contact",
+                  "link_text": "Book Service"
+                },
+                {
+                  "title": "Low Latency Cloud Gaming",
+                  "description": "Sub-5ms optimized ping routing for Twitch broadcasting and competitive esports tournaments.",
+                  "icon": "Server",
+                  "image": "/images/service-gaming.webp",
+                  "link": "#contact",
+                  "link_text": "Book Service"
+                },
+                {
+                  "title": "Express Fiber Installation",
+                  "description": "Prompt optical fiber termination and on-site signal calibration within 24 to 48 hours.",
+                  "icon": "Wrench",
+                  "image": "/images/service-installation.webp",
+                  "link": "#contact",
+                  "link_text": "Book Service"
+                },
+                {
+                  "title": "24/7 Dedicated NOC Support",
+                  "description": "Round-the-clock proactive monitoring and on-call fiber technicians for continuous uptime.",
+                  "icon": "Headset",
+                  "image": "/images/service-noc.webp",
+                  "link": "#contact",
+                  "link_text": "Book Service"
+                }
+              ],
+              "card_button_text": "Book Service"
+            },
+            "pricing": {
+              "subtitle": "OUR BROADBAND PLANS",
+              "title_line1": "Choose the Plan That",
+              "title_highlight": "Fits Your Needs",
+              "description": "Ultra-fast, reliable and truly unlimited fiber internet plans for every household and enterprise.\\nEnjoy symmetric speeds, free Wi-Fi 6 router, and zero data caps.",
+              "plans": [
+                {
+                  "name": "STARTER FIBER",
+                  "category": "Best for Everyday Browsing & Work",
+                  "speed": "100",
+                  "speed_unit": "Mbps",
+                  "price": ".99",
+                  "period": "/month",
+                  "features": [
+                    "100 Mbps Symmetric Speed",
+                    "True Unlimited Data (No FUP)",
+                    "Free Wi-Fi 6 Optical Router",
+                    "24/7 Customer Support",
+                    "Zero Installation Fee"
+                  ],
+                  "icon": "Home",
+                  "button_text": "Choose Plan",
+                  "button_href": "#contact",
+                  "is_popular": false,
+                  "billing_period": "/month"
+                },
+                {
+                  "name": "TURBO STREAMER",
+                  "category": "Most Popular for 4K Streaming & Multi-Device",
+                  "speed": "300",
+                  "speed_unit": "Mbps",
+                  "price": ".99",
+                  "period": "/month",
+                  "features": [
+                    "300 Mbps Symmetric Speed",
+                    "True Unlimited Data (No FUP)",
+                    "Premium Wi-Fi 6 Dual-Band Router",
+                    "Sub-5ms Ultra-Low Latency",
+                    "Free Express Installation"
+                  ],
+                  "icon": "Film",
+                  "button_text": "Choose Plan",
+                  "button_href": "#contact",
+                  "is_popular": true,
+                  "popular_badge": "MOST POPULAR",
+                  "billing_period": "/month"
+                },
+                {
+                  "name": "GIGAMAX PRO",
+                  "category": "Best for Power Users & Gamers",
+                  "speed": "1000",
+                  "speed_unit": "Mbps",
+                  "price": ".99",
+                  "period": "/month",
+                  "features": [
+                    "1 Gbps (1000 Mbps) True Gigabit",
+                    "True Unlimited Data (No FUP)",
+                    "Mesh Wi-Fi 6 Whole-Home Coverage",
+                    "VIP Dedicated NOC Support",
+                    "Static IP Included on Request"
+                  ],
+                  "icon": "Users",
+                  "button_text": "Choose Plan",
+                  "button_href": "#contact",
+                  "is_popular": false,
+                  "billing_period": "/month"
+                },
+                {
+                  "name": "ENTERPRISE LEASED",
+                  "category": "Dedicated Leased Line for Offices",
+                  "speed": "10",
+                  "speed_unit": "Gbps Ready",
+                  "price": ".99",
+                  "period": "/month",
+                  "features": [
+                    "Custom Dedicated Fiber Ring",
+                    "99.99% Uptime Guarantee SLA",
+                    "24/7 Dedicated Account Manager",
+                    "BGP Peering & Multiple Static IPs",
+                    "4-Hour MTTR On-Site Support"
+                  ],
+                  "icon": "Briefcase",
+                  "button_text": "Get Enterprise Quote",
+                  "button_href": "#contact",
+                  "is_popular": false,
+                  "billing_period": "/month"
+                }
+              ]
+            },
+            "why_choose": {
+              "subtitle": "WHY FIBER NOVA",
+              "title_line1": "More Than Internet,",
+              "title_highlight": "A Better Experience",
+              "description": "We deploy cutting-edge FTTH optical technology and redundant backbone rings to give you the most consistent internet experience in the city.",
+              "image": "/images/why-choose.webp",
+              "items": [
+                {
+                  "title": "Free Wi-Fi 6 Router",
+                  "description": "Next-gen dual-band Wi-Fi 6 router provided and calibrated with every fiber connection.",
+                  "icon": "Router"
+                },
+                {
+                  "title": "Symmetric Speeds",
+                  "description": "Equally fast download and upload speeds up to 1 Gbps with zero bandwidth throttling.",
+                  "icon": "Laptop5G"
+                },
+                {
+                  "title": "Buffer-Free 4K / 8K",
+                  "description": "Seamless ultra-HD multi-room streaming without lag, dropouts, or quality degradation.",
+                  "icon": "Screen4K"
+                },
+                {
+                  "title": "24/7 Technical NOC",
+                  "description": "Live network operations team always on standby to resolve any inquiries promptly.",
+                  "icon": "Support24"
+                }
+              ]
+            },
+            "cta_banner": {
+              "title_line1": "Ready for a Faster,",
+              "title_line2": "Smarter",
+              "title_highlight": "Fiber Experience?",
+              "description": "Join thousands of satisfied homes and businesses across the city. Switch to Fiber Nova today and enjoy symmetric gigabit connectivity.",
+              "button": {
+                "text": "Book Connection Now",
+                "href": "#contact"
+              },
+              "image": "/images/router.webp",
+              "subtitle": "LIGHTSPEED BROADBAND"
+            },
+            "testimonials": {
+              "subtitle": "CUSTOMER REVIEWS",
+              "title_line1": "What Our",
+              "title_highlight": "Subscribers Say",
+              "description": "Trusted by thousands of happy families and growing businesses for blazing speed and dependable uptime.",
+              "rating_summary": {
+                "score": "4.9/5",
+                "label": "from 3,200+ verified customers",
+                "avatars": [
+                  "/images/avatar1.webp",
+                  "/images/avatar2.webp",
+                  "/images/avatar3.webp"
+                ]
+              },
+              "reviews": [
+                {
+                  "author": "Michael Vance",
+                  "role": "Remote Software Lead",
+                  "location": "Downtown Tech District",
+                  "avatar": "/images/avatar1.webp",
+                  "rating": 5,
+                  "text": "Fiber Nova transformed our remote work setup. Downloading 20GB docker images and uploading large datasets takes seconds. Solid 99.9% uptime!"
+                },
+                {
+                  "author": "Sarah Jenkins",
+                  "role": "Creative Director",
+                  "location": "Brooklyn Arts Hub",
+                  "avatar": "/images/avatar2.webp",
+                  "rating": 5,
+                  "text": "Symmetric upload speeds are a game changer for 4K video rendering. Our team can transfer massive video rushes to the cloud in minutes. Best ISP ever!"
+                },
+                {
+                  "author": "David Chen",
+                  "role": "Competitive Gamer & Streamer",
+                  "location": "Midtown Residences",
+                  "avatar": "/images/avatar3.webp",
+                  "rating": 5,
+                  "text": "My ping dropped from 48ms to 3ms flat. Zero packet loss on Twitch 1080p60 broadcasts even while others in the house are streaming 4K Netflix."
+                }
+              ]
+            },
+            "contact": {
+              "subtitle": "SEND US A MESSAGE",
+              "title_line1": "Get In",
+              "title_highlight": "Touch",
+              "description": "Fill out the form below and our optical fiber engineering team will contact you within 2 hours.",
+              "image": "/images/service-noc.webp",
+              "form": {
+                "subtitle": "SEND US A MESSAGE",
+                "title_line1": "Get In",
+                "title_highlight": "Touch",
+                "description": "Fill out the form below and our optical fiber engineering team will contact you within 2 hours.",
+                "button_text": "Request Connection & Installation",
+                "consent_text": "I agree to be contacted by Fiber Nova regarding my broadband enquiry.",
+                "success_title": "Thank You for Reaching Out!",
+                "success_message": "Your enquiry has been received. Our Fiber Nova specialist will connect with you shortly.",
+                "service_options": [
+                  "Home Broadband (100 Mbps)",
+                  "Turbo Streamer (300 Mbps)",
+                  "GigaMax Pro (1 Gbps)",
+                  "Business Dedicated Fiber",
+                  "Wi-Fi 6 Mesh Setup"
+                ],
+                "placeholders": {
+                  "name": "Full Name *",
+                  "phone": "Phone Number *",
+                  "email": "Email Address *",
+                  "city": "Installation Address *",
+                  "service_type": "Select Desired Fiber Plan *",
+                  "message": "Your Message or Special Installation Requests (Optional)"
+                }
+              },
+              "noc_card": {
+                "title": "Fiber Nova Network Operations Center",
+                "description": "Our 24/7 technical headquarters monitors optical distribution frames and thousands of fiber miles to deliver consistent 99.9% uptime.",
+                "hours_label": "Business Hours:",
+                "hours_value": "Mon - Fri: 9:00 AM - 6:00 PM PST"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
